@@ -10,7 +10,7 @@ Import data to SQL database using PostgreSQL:
 
 Step 2:
 
-### DAX Queries
+##### DAX Queries
 
 AgeGroup = SWITCH(
  TRUE(),
@@ -30,7 +30,7 @@ IncomeGroup = SWITCH(
  "unknown"
 )
 
-### DAX Queries
+##### DAX Queries
 
 week_num2 = WEEKNUM('public cc_detail'[week_start_date])
 Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
