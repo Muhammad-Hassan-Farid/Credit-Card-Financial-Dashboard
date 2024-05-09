@@ -47,6 +47,9 @@ Previous_week_Reveneue = CALCULATE(
  ALL('public cc_detail'),
  'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1)
 
+ Step 3:
+ Dashboard
+
 ## Insights
 WoW change: 
 • Revenue increased by 28.8%, 
